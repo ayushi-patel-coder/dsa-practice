@@ -18,3 +18,9 @@
 - Link: https://leetcode.com/problems/two-sum/
 
 ---
+
+## 03. Move Zeroes
+- Pattern: Two Pointer
+- Time: O(n), Space: O(1)
+- Tip: Use left pointer to track next non-zero position
+- Link: https://leetcode.com/problems/move-zeroes/
