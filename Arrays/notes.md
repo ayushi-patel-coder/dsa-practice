@@ -24,3 +24,9 @@
 - Time: O(n), Space: O(1)
 - Tip: Use left pointer to track next non-zero position
 - Link: https://leetcode.com/problems/move-zeroes/
+
+## 04. Remove Duplicates from Sorted Array
+- Pattern: Two Pointer (slow + fast)
+- Time: O(n), Space: O(1)
+- Tip: Array is sorted so duplicates are always adjacent
+- Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
