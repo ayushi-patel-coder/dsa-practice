@@ -30,3 +30,11 @@
 - Time: O(n), Space: O(1)
 - Tip: Array is sorted so duplicates are always adjacent
 - Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+
+## 05. Product of Array Except Self
+- Pattern: Prefix and Suffix Product
+- Time: O(n), Space: O(1)
+- Tip: ans[i] = prefix product * suffix product
+- Division not allowed per constraint
+- Link: https://leetcode.com/problems/product-of-array-except-self/
