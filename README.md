@@ -10,7 +10,7 @@ Solving DSA problems topic-wise following Striver A2Z Sheet.
 ## Progress Tracker
 | Topic | Solved |
 |-------|--------|
-| Arrays | 4 |
+| Arrays | 5 |
 | Strings | 0 |
 | Linked List | 0 |
 | Stack & Queue | 0 |
