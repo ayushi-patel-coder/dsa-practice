@@ -38,3 +38,11 @@
 - Tip: ans[i] = prefix product * suffix product
 - Division not allowed per constraint
 - Link: https://leetcode.com/problems/product-of-array-except-self/
+
+
+## 06. Trapping Rain Water
+- Pattern: Prefix Max + Suffix Max
+- Time: O(n), Space: O(n)
+- Water at index i = min(leftMax, rightMax) - height[i]
+- Only add if contribution > 0
+- Link: https://leetcode.com/problems/trapping-rain-water/
