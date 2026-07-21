@@ -54,3 +54,12 @@
 - right_sum = total_sum - left_sum - nums[i]
 - If left_sum == right_sum → pivot found
 - Link: https://leetcode.com/problems/find-pivot-index/
+
+
+## 08. Maximum Subarray
+- Pattern: Kadane's Algorithm
+- Time: O(n), Space: O(1)
+- If sum >= 0 → extend subarray
+- If sum < 0 → reset sum to current element
+- Initialize ans = Integer.MIN_VALUE for all-negative arrays
+- Link: https://leetcode.com/problems/maximum-subarray/
