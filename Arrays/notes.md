@@ -46,3 +46,11 @@
 - Water at index i = min(leftMax, rightMax) - height[i]
 - Only add if contribution > 0
 - Link: https://leetcode.com/problems/trapping-rain-water/
+
+
+## 07. Find Pivot Index
+- Pattern: Prefix Sum
+- Time: O(n), Space: O(1)
+- right_sum = total_sum - left_sum - nums[i]
+- If left_sum == right_sum → pivot found
+- Link: https://leetcode.com/problems/find-pivot-index/
