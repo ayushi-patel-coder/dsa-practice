@@ -63,3 +63,11 @@
 - If sum < 0 → reset sum to current element
 - Initialize ans = Integer.MIN_VALUE for all-negative arrays
 - Link: https://leetcode.com/problems/maximum-subarray/
+
+
+## 09. Subarray Sum Equals K
+- Pattern: Prefix Sum
+- Time: O(n²), Space: O(n)
+- psum[b] - psum[a-1] == k → valid subarray
+- Optimal: HashMap O(n) solution also exists
+- Link: https://leetcode.com/problems/subarray-sum-equals-k/
